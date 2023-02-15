@@ -1,6 +1,8 @@
+import './FindMe.css'
+
 export const FindMe = () => {
     return (
-        <footer>
+        <footer className='footer-container'>
             <p>LinkedIn</p>
             <p>GitHub</p>
             <p>Twitter</p>

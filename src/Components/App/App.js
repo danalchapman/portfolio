@@ -4,7 +4,7 @@ import './App.css';
 
 export const App = () => {
   return (
-    <main className="App">
+    <main className='main-container'>
       <Nav />
       <FindMe />
     </main>

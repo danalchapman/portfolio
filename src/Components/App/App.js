@@ -1,6 +1,7 @@
 import { Nav } from '../Nav/Nav'
 import { About } from '../About/About'
-import { Projects } from '../Projects/Projects';
+import { Projects } from '../Projects/Projects'
+import { Connect } from '../Connect/Connect'
 import { FindMe } from '../FindMe/FindMe'
 import './App.css';
 
@@ -10,6 +11,7 @@ export const App = () => {
       <Nav />
       <About />
       <Projects />
+      <Connect />
       <FindMe />
     </main>
   );

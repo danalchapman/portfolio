@@ -1,0 +1,9 @@
+.projects-container {
+    border: 2px solid orange;
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}

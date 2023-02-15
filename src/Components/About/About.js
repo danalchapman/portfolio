@@ -2,9 +2,9 @@ import './About.css'
 
 export const About = () => {
     return (
-        <section>
+        <section className='about-container'>
             <h2>The 3 C's: Code Community Charity</h2>
-            <article>
+            <article className='about-text'>
                 <p>Hey hi hello! My name is Dana, and my lifelong calling has been to help others in whatever facet I find myself in.</p>
                 <p>I graduated Magna Cum Laude from Florida State University in 2016 with a Bachelor of Science in Psychology with future aspiration of becoming a Victim Advocate for my local community. However, my first pivot came when I decided to continue working with Starbucks Coffee Company - I spent nearly seven years connecting with my community and partners, with the hope that a small interaction could have a positive impact on someone else's day.</p>
                 <p>The transition into tech actually started near the end of 2020, when I started to look for opportunities outside of the retail/food service realm. I initially, on the suggestion of a friend, earned my certificate in Google's IT Support Specialization, which I received in April of 2021. It would be another year of job searching while working, before I would make the leap of faith that took me to where I am today.</p>

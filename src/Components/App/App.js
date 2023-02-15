@@ -1,10 +1,13 @@
+import { Nav } from '../Nav/Nav'
+import { FindMe } from '../FindMe/FindMe'
 import './App.css';
 
 export const App = () => {
   return (
-    <div className="App">
-      <h1>Under Construction</h1>
-    </div>
+    <main className="App">
+      <Nav />
+      <FindMe />
+    </main>
   );
 }
 

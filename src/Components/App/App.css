@@ -6,3 +6,7 @@
   -ms-overflow-style: none;  /* IE and Edge */
 }
 
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+

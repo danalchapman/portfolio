@@ -5,7 +5,4 @@
     display: flex;
     height: 2rem;
     justify-content: space-around;
-    position: sticky;
-    bottom: 0;
-    z-index: 999;
 }

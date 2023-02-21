@@ -1,5 +1,10 @@
 .about-container {
-    border: 2px solid darkgoldenrod;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 }
 
 .about-text {

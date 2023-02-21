@@ -2,8 +2,7 @@ import './About.css'
 
 export const About = () => {
     return (
-        <section className='about-container'>
-            <h2>The 3 C's: Code Community Charity</h2>
+        <section className='about-container' id='about'>
             <article className='about-text'>
                 <p>Hey hi hello! My name is Dana, and my lifelong calling has been to help others in whatever facet I find myself in.</p>
                 <p>I graduated Magna Cum Laude from Florida State University in 2016 with a Bachelor of Science in Psychology with future aspiration of becoming a Victim Advocate for my local community. However, my first pivot came when I decided to continue working with Starbucks Coffee Company - I spent nearly seven years connecting with my community and partners, with the hope that a small interaction could have a positive impact on someone else's day.</p>

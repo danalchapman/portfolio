@@ -3,7 +3,7 @@ import { Nav } from '../Nav/Nav'
 import { About } from '../About/About'
 import { Projects } from '../Projects/Projects'
 import { Connect } from '../Connect/Connect'
-import { FindMe } from '../FindMe/FindMe'
+// import { FindMe } from '../FindMe/FindMe'
 import { projectData } from '../../projectData'
 import './App.css';
 
@@ -13,7 +13,7 @@ export const App = () => {
 
   useEffect(() => {
     setProjects(projectData)
-  })
+  }, [])
 
   return (
     <main className='main-container'>
@@ -23,7 +23,7 @@ export const App = () => {
         projects={ projects }
       />
       <Connect />
-      <FindMe />
+      {/* <FindMe /> */}
     </main>
   );
 }

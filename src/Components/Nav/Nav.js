@@ -1,14 +1,14 @@
 import './Nav.css'
 
 export const Nav = () => {
+
     return (
         <header className='header-container'>
-            <h1>Dana Chapman</h1>
-            <p>Frontend Software Engineer</p>
             <nav className='nav-container'>
-                <button>About Me</button>
-                <button>Projects</button>
-                <button>Let's Connect</button>
+                <a href={`#about`}>Home</a>
+                <a href={`#about`}>About</a>
+                <a href={`#projects`}>Projects</a>
+                <a href={`#connect`}>Connect</a>
             </nav>
         </header>
     )

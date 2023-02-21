@@ -1,8 +1,12 @@
 .connect-container {
-    border: 2px solid lime;
+    align-items: center;
+    background-color: goldenrod;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 }
 
 .icon {
-    width: 10%;
+    width: 50%;
     margin: 2.5%;
 }

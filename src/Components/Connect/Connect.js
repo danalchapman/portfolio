@@ -7,8 +7,7 @@ import twitterIcon from '../../Assets/twitter.png'
 
 export const Connect = () => {
     return (
-        <section className='connect-container'>
-            <h4>Let's Connect</h4>
+        <section className='connect-container' id='connect'>
             <a href='https://www.linkedin.com/in/danalchapman/'>
                 <img src={linkedinIcon } alt='LinkedIn Icon' className='icon' />
             </a>

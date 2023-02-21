@@ -3,7 +3,8 @@ import './Nav.css'
 export const Nav = () => {
     return (
         <header className='header-container'>
-            <h1>Dana Chapman || Frontend Software Engineer</h1>
+            <h1>Dana Chapman</h1>
+            <p>Frontend Software Engineer</p>
             <nav className='nav-container'>
                 <button>About Me</button>
                 <button>Projects</button>

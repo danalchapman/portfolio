@@ -9,7 +9,7 @@ export const Connect = () => {
     return (
         <section className='connect-container' id='connect'>
             <a href='https://www.linkedin.com/in/danalchapman/'>
-                <img src={linkedinIcon } alt='LinkedIn Icon' className='icon' />
+                <img src={ linkedinIcon } alt='LinkedIn Icon' className='icon' />
             </a>
             <a href='https://github.com/danalchapman'>
                 <img src={ githubIcon } alt='GitHub Icon' className='icon' />

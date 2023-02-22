@@ -1,6 +1,6 @@
 .home-container {
     align-items: center;
-    background-color: rgb(15, 16, 42);
+    background-color: #101725;
     color: white;
     display: flex;
     height: 100vh;
@@ -8,6 +8,7 @@
 }
 
 .header-img {
+    border-radius: 2rem;
     box-shadow: rgb(255, 255, 255) 0px 0px 30px;
-    width: 100vw;
+    width: 90vw;
 }

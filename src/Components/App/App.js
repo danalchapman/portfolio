@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Nav } from '../Nav/Nav'
+import { Home } from '../Home/Home'
 import { About } from '../About/About'
 import { Projects } from '../Projects/Projects'
 import { Connect } from '../Connect/Connect'
@@ -18,6 +19,7 @@ export const App = () => {
   return (
     <main className='main-container'>
       <Nav />
+      <Home />
       <About />
       <Projects 
         projects={ projects }

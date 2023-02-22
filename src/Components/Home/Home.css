@@ -1,0 +1,8 @@
+.home-container {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}

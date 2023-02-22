@@ -1,0 +1,14 @@
+.home-container {
+    align-items: center;
+    background-color: #101725;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.header-img {
+    border-radius: 2rem;
+    box-shadow: rgb(255, 255, 255) 0px 0px 30px;
+    width: 90vw;
+}

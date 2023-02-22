@@ -18,8 +18,7 @@ export const Projects = ({ projects }) => {
     }
 
     return (
-        <section className='projects-container'>
-            <h3>Projects</h3>
+        <section className='projects-container' id='projects'>
             <article className='card-box'>
                 { displayProjects() }
             </article>

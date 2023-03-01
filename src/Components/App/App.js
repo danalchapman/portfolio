@@ -19,12 +19,13 @@ export const App = () => {
   return (
     <main className='main-container'>
       <Nav />
-      <Home />
-      <About />
+      <Home id='home'/>
+      <About id='about'/>
       <Projects 
         projects={ projects }
+        id='projects'
       />
-      <Connect />
+      <Connect id='connect'/>
       {/* <FindMe /> */}
     </main>
   );

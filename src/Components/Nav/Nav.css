@@ -10,3 +10,7 @@
     justify-content: space-evenly;
     padding: 1%;
 }
+
+.nav-item > .active {
+    border-bottom: 1px solid #333;
+}

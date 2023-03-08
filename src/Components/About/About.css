@@ -1,6 +1,6 @@
 .about-container {
     align-items: center;
-    background-color: #101725;
+    background-color: #202737;
     color: white;
     display: flex;
     height: 100vh;
@@ -8,5 +8,6 @@
 }
 
 .about-text {
+    background-color: #293447;
     padding: .75rem 5rem;
 }

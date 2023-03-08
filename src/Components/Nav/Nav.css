@@ -1,16 +1,3 @@
-.header-container {
-    background-color: rgb(15, 16, 42);
-    position: sticky;
-    top: 0;
-    z-index: 999;
-}
-
 .nav-container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1%;
-}
-
-.nav-item > .active {
-    border-bottom: 1px solid #333;
+    text-align: center;
 }

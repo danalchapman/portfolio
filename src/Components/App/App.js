@@ -1,11 +1,15 @@
 import { useState, useEffect } from 'react'
+import { Route, Routes } from 'react-router-dom'
+
 import { Nav } from '../Nav/Nav'
 import { Home } from '../Home/Home'
 import { About } from '../About/About'
 import { Projects } from '../Projects/Projects'
 import { Connect } from '../Connect/Connect'
 // import { FindMe } from '../FindMe/FindMe'
+
 import { projectData } from '../../projectData'
+
 import './App.css';
 
 export const App = () => {
@@ -19,13 +23,12 @@ export const App = () => {
   return (
     <main className='main-container'>
       <Nav />
-      <Home id='home'/>
-      <About id='about'/>
-      <Projects 
-        projects={ projects }
-        id='projects'
-      />
-      <Connect id='connect'/>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects projects={ projects } />} />
+        <Route path='/connect' element={<Connect />} />
+      </Routes>
       {/* <FindMe /> */}
     </main>
   );

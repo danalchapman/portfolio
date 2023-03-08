@@ -1,4 +1,27 @@
 .nav-container {
     background-color: #202737;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.nav-logo {
+    width: 10%;
+}
+
+.nav-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    width: 40%;
+}
+
+.inactive {
+    color: #660000;
+    text-decoration: none;
+}
+
+.active {
+    color: #ffbfbf;
 }

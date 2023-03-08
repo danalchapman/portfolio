@@ -6,7 +6,7 @@
 }
 
 .nav-logo {
-    width: 10%;
+    width: 5%;
 }
 
 .nav-links {
@@ -14,7 +14,8 @@
     display: flex;
     justify-content: space-around;
     padding: .5rem;
-    width: 40%;
+    transition: 0.5s;
+    width: 35%;
 }
 
 .inactive {
@@ -24,4 +25,5 @@
 
 .active {
     color: #ffbfbf;
+    text-decoration: underline;
 }

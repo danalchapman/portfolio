@@ -1,12 +1,29 @@
-.header-container {
-    background-color: rgb(15, 16, 42);
-    position: sticky;
-    top: 0;
-    z-index: 999;
+.nav-container {
+    background-color: #202737;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
 }
 
-.nav-container {
+.nav-logo {
+    width: 5%;
+}
+
+.nav-links {
+    align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    padding: 1%;
+    justify-content: space-around;
+    padding: .5rem;
+    transition: 0.5s;
+    width: 35%;
+}
+
+.inactive {
+    color: #660000;
+    text-decoration: none;
+}
+
+.active {
+    color: #ffbfbf;
+    text-decoration: underline;
 }

@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- HEADER -->
+<h1 align="center">D.L.C. Portfolio</h1>
 
-## Available Scripts
+<h3 align="center">Frontend Software Engineer</h3>
 
-In the project directory, you can run:
+<h4 align="center"><a href=""><strong>Portfolio</strong></a> | <a href="https://github.com/danalchapman/portfolio"><strong>Repository »</strong></a></h4>
 
-### `npm start`
+<p></p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#organization">Organization</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#setup">Setup</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li>
+        <a href="#features">Features</a>
+        <ul>
+            <li><a href="#reflections">Reflections</a>
+        </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3 align="center">Home Page</h3>
+<p align="center"><img width="500" src="" alt="Home Page gif"></p>
 
-### `npm run build`
+<h3 align="center">Invalid URL Error Handling</h3>
+<p align="center"><img width="500" src="" alt="error handling gif"></p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br />
+TBD
+<br />
+<br />
+TBD
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Organization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- TBD (List of Tools and Documents)
 
-### `npm run eject`
+<h3 align="center">Wireframe</h3>
+<p align="center"><img width="500" src="" alt="Wireframe"></p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+TBD: Tools and Documentation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![React][React-shield]
+![JavaScript][JavaScript-shield]
+![HTML5][HTML-shield]
+![Cypress][Cypress-shield]
+![NPM][NPM-shield]
+![Vercel][Vercel-shield]
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+## Setup
+- Clone the repository to your local machine
+- `cd` into the repository
+- Make sure the necessary dependencies are installed on your local machine (`react-router-dom`, `cypress`)
+- Once the necessary dependencies are installed, run `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Roadmap
 
-### Code Splitting
+- [ ] TBD
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- TBD: Features, Tools, Decisions Made
 
-### Making a Progressive Web App
+### Reflections
+<b>Wins:</b><br>
+TBD
+<p>
+<b>Challenges:</b><br>
+TBD
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<table align="center">
+    <tr>
+        <td align="center"> Dana Chapman: <a href="https://github.com/danalchapman">GitHub</a> | <a href="https://www.linkedin.com/in/danalchapman/">LinkedIn</a></td>
+    </tr>
+ <td align="center"><img src="https://avatars.githubusercontent.com/u/105478792?v=4" alt="Dana Chapman GitHub"
+ width="150" height="auto" /></td>
+</table>
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MARKDOWN LINKS & IMAGES -->
+[React-shield]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[JavaScript-shield]: https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[HTML-shield]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[Cypress-shield]: https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e
+[NPM-shield]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[Vercel-shield]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white

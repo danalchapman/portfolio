@@ -1,5 +1,5 @@
 .main-container {
-  text-align: center;
+  /* text-align: center; */
   height: 100vh;
   overflow-y: scroll;
   scrollbar-width: none;  /* Firefox */

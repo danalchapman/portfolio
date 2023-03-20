@@ -1,12 +1,10 @@
 import { useState, useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-import { Nav } from '../Nav/Nav'
 import { Home } from '../Home/Home'
-import { About } from '../About/About'
+import { Story } from '../Story/Story'
 import { Projects } from '../Projects/Projects'
-import { Connect } from '../Connect/Connect'
-// import { FindMe } from '../FindMe/FindMe'
+import { Connection } from '../Connection/Connection'
 
 import { projectData } from '../../projectData'
 
@@ -22,14 +20,12 @@ export const App = () => {
 
   return (
     <main className='main-container'>
-      <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/story' element={<Story />} />
         <Route path='/projects' element={<Projects projects={ projects } />} />
-        <Route path='/connect' element={<Connect />} />
+        <Route path='/connection' element={<Connection />} />
       </Routes>
-      {/* <FindMe /> */}
     </main>
   );
 }

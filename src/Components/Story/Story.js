@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Footer } from '../Footer/Footer'
 
 import flora from '../../Assets/flora.avif'
 import './Story.css'
@@ -22,6 +23,7 @@ export const Story = () => {
                     <p>Fillter text the third</p>
                 </article>
                 <Link to='/'><button className='story-btns'>Home</button></Link>
+                <Footer />
             </section>
         </div>
     )

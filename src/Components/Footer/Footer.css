@@ -1,0 +1,13 @@
+.footer-container {
+    align-items: center;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    height: 7%;
+    width: 100%;
+}
+
+.icon {
+    cursor: pointer;
+    width: 10%;
+}

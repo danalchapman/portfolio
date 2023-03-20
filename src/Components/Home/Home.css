@@ -57,7 +57,23 @@
 }
 
 .author-text-name {
-    margin-top: .5rem;
+    margin-top: .15rem;
 }
 
 /* Bottom Nav Buttons */
+.home-nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-btns {
+    background: #D9D9D9;
+    border: 0;
+    border-radius: 10px;
+    color: #BF9393;
+    font-family: 'Jim Nightshade';
+    font-size: x-large;
+    height: 70px;
+    margin: .5rem;
+    width: 240px;
+}

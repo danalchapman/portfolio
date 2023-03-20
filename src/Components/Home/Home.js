@@ -27,9 +27,9 @@ export const Home = () => {
                     <p className='author-text-title'>Frontend Software Engineer</p>
                 </div>
                 <div className='home-nav-container'>
-                    <button>Story</button>
-                    <button>Projects</button>
-                    <button>Connection</button>
+                    <button className='home-btns'>Story</button>
+                    <button className='home-btns'>Projects</button>
+                    <button className='home-btns'>Connection</button>
                 </div>
                 <Footer />
             </section>

@@ -7,7 +7,11 @@
     width: 100%;
 }
 
+.icon-link {
+    text-align: center;
+}
+
 .icon {
     cursor: pointer;
-    width: 10%;
+    width: 25%;
 }

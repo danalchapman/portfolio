@@ -46,9 +46,14 @@
     background-color: #bf9393;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
     height: 55vh;
     text-align: center;
     width: 40vw;
+    overflow-y: scroll;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
 }
+
+.card-box::-webkit-scrollbar {
+    display: none;
+  }

@@ -9,7 +9,7 @@ import './Home.css'
 export const Home = () => {
 
     return (
-        <section className='home-container'>
+        <div className='home-container'>
             <img 
                 src={ wall } 
                 alt='a wall with a metal bar design over it' 
@@ -36,6 +36,6 @@ export const Home = () => {
                 </div>
                 <Footer />
             </section>
-        </section>
+        </div>
     )
 }

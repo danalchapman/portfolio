@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import { Footer } from '../Footer/Footer'
+
 import wall from '../../Assets/wall.avif'
 import avatar from '../../Assets/ava-resize.png'
 import './Home.css'
@@ -6,7 +8,7 @@ import './Home.css'
 export const Home = () => {
 
     return (
-        <section className='home-container'>
+        <div className='home-container'>
             <img 
                 src={ wall } 
                 alt='a wall with a metal bar design over it' 
@@ -27,12 +29,12 @@ export const Home = () => {
                     <p className='author-text-title'>Frontend Software Engineer</p>
                 </div>
                 <div className='home-nav-container'>
-                    <button className='home-btns'>Story</button>
-                    <button className='home-btns'>Projects</button>
-                    <button className='home-btns'>Connection</button>
+                    <Link to='/story'><button className='home-btns'>Story</button></Link>
+                    <Link to='/projects'><button className='home-btns'>Projects</button></Link>
+                    <Link to='/connection'><button className='home-btns'>Connection</button></Link>
                 </div>
                 <Footer />
             </section>
-        </section>
+        </div>
     )
 }

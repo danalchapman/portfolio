@@ -30,8 +30,8 @@ export const Home = () => {
                 </div>
                 <div className='home-nav-container'>
                     <Link to='/story'><button className='home-btns'>Story</button></Link>
-                    <button className='home-btns'>Projects</button>
-                    <button className='home-btns'>Connection</button>
+                    <Link to='/projects'><button className='home-btns'>Projects</button></Link>
+                    <Link to='/connection'><button className='home-btns'>Connection</button></Link>
                 </div>
                 <Footer />
             </section>

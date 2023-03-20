@@ -14,8 +14,8 @@ export const Story = () => {
             />
             <section className='story-right'>
                 <div className='story-nav-container'>
-                    <button className='story-btns'>Projects</button>
-                    <button className='story-btns'>Connection</button>
+                    <Link to='/projects'><button className='story-btns'>Projects</button></Link>
+                    <Link to='/connection'><button className='story-btns'>Connection</button></Link>
                 </div>
                 <article className='story-text'>
                     <p>Filler text let's go</p>

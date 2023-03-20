@@ -1,14 +1,59 @@
+/* Projects Page */
 .projects-container {
-    align-items: center;
+    color: #FFFFFF;
     display: flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     height: 100vh;
-    justify-content: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card-box {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    height: 50%;
-    width: 100%;
+/* Left - Image */
+.projects-left {
+    height: 100%;
+    width: 50%;
 }
+
+/* Right - Content */
+.projects-right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* Top Nav Buttons */
+.projects-nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-btns {
+    background: #D9D9D9;
+    border: 0;
+    border-radius: 10px;
+    color: #BF9393;
+    cursor: pointer;
+    font-family: 'Jim Nightshade';
+    font-size: x-large;
+    height: 70px;
+    margin: .5rem;
+    width: 240px;
+}
+
+/* Center Grid */
+.card-box {
+    background-color: #bf9393;
+    border-radius: 10px;
+    display: grid;
+    height: 55vh;
+    text-align: center;
+    width: 40vw;
+    overflow-y: scroll;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.card-box::-webkit-scrollbar {
+    display: none;
+  }

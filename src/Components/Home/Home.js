@@ -1,4 +1,7 @@
+import { Link } from 'react-router-dom'
+
 import { Footer } from '../Footer/Footer'
+
 import wall from '../../Assets/wall.avif'
 import avatar from '../../Assets/ava-resize.png'
 import './Home.css'
@@ -27,7 +30,7 @@ export const Home = () => {
                     <p className='author-text-title'>Frontend Software Engineer</p>
                 </div>
                 <div className='home-nav-container'>
-                    <button className='home-btns'>Story</button>
+                    <Link to='/story'><button className='home-btns'>Story</button></Link>
                     <button className='home-btns'>Projects</button>
                     <button className='home-btns'>Connection</button>
                 </div>

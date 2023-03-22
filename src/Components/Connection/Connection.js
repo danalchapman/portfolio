@@ -31,31 +31,41 @@ export const Connection = () => {
                     </div>
                 </div>
                 <article className='con-links-container'>
-                    <img 
-                        src={ email }
-                        alt='Email Icon'
-                        className='con-icon'
-                    />
-                    <img 
-                        src={ github }
-                        alt='GitHub Icon'
-                        className='con-icon'
-                    />
-                    <img 
-                        src={ insta }
-                        alt='Instagram Icon'
-                        className='con-icon'
-                    />
-                    <img 
-                        src={ linkedin }
-                        alt='LinkedIn Icon'
-                        className='con-icon'
-                    />
-                    <img 
-                        src={ twitter }
-                        alt='Twitter Icon'
-                        className='con-icon'
-                    />
+                    <a href='mailto:dana.leigh.dlc@gmail.com?subject=Coffee%20Chat' title='Email'> 
+                        <img 
+                            src={ email }
+                            alt='Email Icon'
+                            className='con-icon'
+                        />
+                    </a>
+                    <a href='https://github.com/danalchapman' title='GitHub'>
+                        <img 
+                            src={ github }
+                            alt='GitHub Icon'
+                            className='con-icon'
+                        />
+                    </a>
+                    <a href='https://www.instagram.com/danaleighbee/' title='Instagram'>
+                        <img 
+                            src={ insta }
+                            alt='Instagram Icon'
+                            className='con-icon'
+                        />
+                    </a>
+                    <a href='https://www.linkedin.com/in/danalchapman/' title='LinkedIn'>
+                        <img 
+                            src={ linkedin }
+                            alt='LinkedIn Icon'
+                            className='con-icon'
+                        />
+                    </a>
+                    <a href='https://twitter.com/danaleighbee' title='Twitter'>
+                        <img 
+                            src={ twitter }
+                            alt='Twitter Icon'
+                            className='con-icon'
+                        />
+                    </a>
                 </article>
                 <div className='con-nav-container'>
                     <Link to='/story'><button className='con-btns'>Story</button></Link>

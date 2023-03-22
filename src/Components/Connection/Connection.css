@@ -60,7 +60,6 @@
     background-color: #d9d9d9;
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
     height: 25vh;
     justify-content: space-around;
     text-align: center;
@@ -69,7 +68,7 @@
 
 .con-icon {
     cursor: pointer;
-    width: 15%;
+    width: 50%;
 }
 
 /* Bottom Nav Container */

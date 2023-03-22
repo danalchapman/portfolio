@@ -1,0 +1,103 @@
+/* Connection Page */
+.con-container {
+    color: #FFFFFF;
+    display: flex;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 100vh;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Left - Image */
+.con-left {
+    height: 100%;
+    width: 50%;
+}
+
+/* Right - Content */
+.con-right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* Top Text Container */
+.top-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem;
+    width: 50vw;
+}
+
+.con-avatar {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.con-text-align {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.con-text-top {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.con-text-bottom {
+    font-style: italic;
+    margin-top: 0;
+}
+
+/* Center Links Container */
+.con-links-container {
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 25vh;
+    justify-content: space-around;
+    text-align: center;
+    width: 40vw;
+}
+
+.con-icon {
+    cursor: pointer;
+    width: 15%;
+}
+
+/* Bottom Nav Container */
+.con-nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-btns {
+    background: #D9D9D9;
+    border: 0;
+    border-radius: 10px;
+    color: #BF9393;
+    cursor: pointer;
+    font-family: 'Jim Nightshade';
+    font-size: x-large;
+    height: 70px;
+    margin: .5rem;
+    width: 240px;
+}
+
+/* Footer */
+.con-footer {
+    align-items: center;
+    background: #D9D9D9;
+    color: #BF9393;
+    display: flex;
+    justify-content: space-around;
+    height: 7%;
+    width: 100%;
+}

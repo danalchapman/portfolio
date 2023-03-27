@@ -15,3 +15,8 @@
     cursor: pointer;
     width: 25%;
 }
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}

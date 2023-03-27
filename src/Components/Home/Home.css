@@ -79,3 +79,50 @@
     margin: .5rem;
     width: 240px;
 }
+
+.home-btns:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+/* Media Queries */
+@media (max-width: 460px) {
+    .quote-container {
+        display: none;
+    }
+
+    .author-container {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-left {
+        display: none;
+    }
+
+    .home-right {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .quote-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        width: 50vw;
+    }
+
+    .quote-text {
+        font-size: large;
+    }
+}

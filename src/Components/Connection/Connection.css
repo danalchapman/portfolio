@@ -68,7 +68,12 @@
 
 .con-icon {
     cursor: pointer;
-    width: 50%;
+    width: 70%;
+}
+
+.con-icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
 }
 
 /* Bottom Nav Container */
@@ -90,6 +95,11 @@
     width: 240px;
 }
 
+.con-btns:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
 /* Footer */
 .con-footer {
     align-items: center;
@@ -99,4 +109,18 @@
     justify-content: space-around;
     height: 7%;
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    .con-left {
+        display: none;
+    }
+
+    .con-right {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
 }

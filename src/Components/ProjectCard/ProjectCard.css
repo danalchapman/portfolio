@@ -13,6 +13,11 @@
     width: 100%;
 }
 
+.card-img:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
 .card-links {
     display: flex;
     justify-content: space-around;

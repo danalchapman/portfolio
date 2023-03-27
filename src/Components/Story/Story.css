@@ -41,6 +41,11 @@
     width: 240px;
 }
 
+.story-btns:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
 /* Center Text Container */
 .story-text {
     background-color: #bf9393;

@@ -80,6 +80,11 @@
     width: 240px;
 }
 
+.home-btns:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
 /* Media Queries */
 @media (max-width: 460px) {
     .quote-container {

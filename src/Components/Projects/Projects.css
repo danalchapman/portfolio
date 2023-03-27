@@ -41,6 +41,11 @@
     width: 240px;
 }
 
+.projects-btns:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
 /* Center Grid */
 .card-box {
     background-color: #bf9393;

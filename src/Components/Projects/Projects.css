@@ -57,3 +57,17 @@
 .card-box::-webkit-scrollbar {
     display: none;
   }
+
+  @media (max-width: 600px) {
+    .projects-left {
+        display: none;
+    }
+
+    .projects-right {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}

@@ -25,6 +25,10 @@
 /* Top Nav Buttons */
 .story-nav-container {
     display: flex;
+}
+
+.story-nav-links {
+    display: flex;
     flex-direction: column;
 }
 
@@ -44,6 +48,13 @@
 .story-btns:hover {
     transform: scale(1.1);
     transition: 0.2s ease;
+}
+
+.story-circle {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 /* Center Text Container */

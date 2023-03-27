@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Footer } from '../Footer/Footer'
 
 import flora from '../../Assets/flora.avif'
+import tech from '../../Assets/tech-1 copy.png'
 import './Story.css'
 
 export const Story = () => {
@@ -14,8 +15,18 @@ export const Story = () => {
             />
             <section className='story-right'>
                 <div className='story-nav-container'>
-                    <Link to='/projects'><button className='story-btns'>Projects</button></Link>
-                    <Link to='/connection'><button className='story-btns'>Connection</button></Link>
+                    <div className='story-nav-links'>
+                        <Link to='/projects'><button className='story-btns'>Projects</button></Link>
+                        <Link to='/connection'><button className='story-btns'>Connection</button></Link>
+                    </div>
+                    <div>
+                        <img 
+                            src={ tech }
+                            alt='screenshot of a laptop screen with code'
+                            className='story-circle'
+                        />
+                        <img />
+                    </div>
                 </div>
                 <article className='story-text'>
                     <h3 className='story-greeting'>Hey hi hello!</h3>

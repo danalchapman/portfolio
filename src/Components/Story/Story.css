@@ -49,8 +49,20 @@
     flex-direction: column;
     height: 55vh;
     justify-content: space-between;
+    overflow-y: scroll;
+    padding: 1rem;
     text-align: center;
     width: 40vw;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.story-text::-webkit-scrollbar {
+    display: none;
+}
+
+.story-greeting {
+    text-decoration: underline;
 }
 
 /* Media Queries */

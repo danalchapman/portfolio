@@ -1,10 +1,10 @@
 import { Header } from '../Header/Header'
 
-import email from '../../Assets/gmail.png'
-import github from '../../Assets/github(1).png'
-import insta from '../../Assets/instagram.png'
-import linkedin from '../../Assets/linkedin(1).png'
-import twitter from '../../Assets/twitter.png'
+import email from '../../Assets/con-email.png'
+import github from '../../Assets/con-github.png'
+import insta from '../../Assets/con-insta.png'
+import linkedin from '../../Assets/con-linked.png'
+import twitter from '../../Assets/conn-twitter.png'
 
 import moon from '../../Assets/mountain.avif'
 import avie from '../../Assets/av-1.png'

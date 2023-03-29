@@ -11,6 +11,9 @@ import avie from '../../Assets/av-1.png'
 import logo from '../../Assets/turing.png'
 import fwiend from '../../Assets/fwiend.png'
 import meme from '../../Assets/memeface.png'
+import fsu from '../../Assets/FSU .png'
+import sky from '../../Assets/sky.png'
+import dogs from '../../Assets/dogs.png'
 import './Connection.css'
 
 export const Connection = () => {
@@ -72,11 +75,7 @@ export const Connection = () => {
                     </a>
                 </article>
                 <article className='con-images'>
-                    <img 
-                        src={ logo }
-                        alt='Turing School logo'
-                        className='con-avatar bottom'
-                    />
+                    
                     <img 
                         src={ fwiend }
                         alt='two friends sitting at a table smiling into the camera'
@@ -85,6 +84,26 @@ export const Connection = () => {
                     <img 
                         src={ meme }
                         alt='an akita making a meme-like face'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ dogs }
+                        alt='Dana sitting on a couch with two dogs'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ fsu }
+                        alt='three friends sitting at a restaurant outside'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ sky }
+                        alt='beautiful sunset sky with pink and orange clouds'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ logo }
+                        alt='Turing School logo'
                         className='con-avatar bottom'
                     />
                 </article>

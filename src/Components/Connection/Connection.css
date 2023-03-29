@@ -79,16 +79,26 @@
 }
 
 /* Bottom Images Container */
-.con-images{
+.con-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    max-height: 300px;
     max-width: 625px;
+    overflow-y: scroll;
     width: 40vw;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
 }
 
+.con-images::-webkit-scrollbar {
+    display: none;
+  }
+
 .bottom {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    margin: .25rem;
+    width: 90px;
 }
 
 /* Footer */

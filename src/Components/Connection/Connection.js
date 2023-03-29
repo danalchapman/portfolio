@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Header } from '../Header/Header'
 
 import email from '../../Assets/gmail.png'
 import github from '../../Assets/github(1).png'
@@ -19,17 +19,18 @@ export const Connection = () => {
                 className='con-left'
             />
             <section className='con-right'>
-                <div className='top-container'>
+                <Header />
+                <summary className='top-container'>
                     <img 
                         src={ avie }
                         alt='Selfie of author'
                         className='con-avatar'
                     />
-                    <div className='con-text-align'>
+                    <aside className='con-text-align'>
                         <h3 className='con-text-top'>Come share your story with me!</h3>
                         <p className='con-text-bottom'>Do everything with kindness</p>
-                    </div>
-                </div>
+                    </aside>
+                </summary>
                 <article className='con-links-container'>
                     <a href='mailto:dana.leigh.dlc@gmail.com?subject=Coffee%20Chat' title='Email'> 
                         <img 
@@ -67,11 +68,6 @@ export const Connection = () => {
                         />
                     </a>
                 </article>
-                <div className='con-nav-container'>
-                    <Link to='/story'><button className='con-btns'>Story</button></Link>
-                    <Link to='/projects'><button className='con-btns'>Projects</button></Link>
-                    <Link to='/'><button className='con-btns'>Home</button></Link>
-                </div>
                 <footer className='con-footer'>
                     <p>© 2023 Dana Chapman. All rights reserved.</p>
                 </footer>

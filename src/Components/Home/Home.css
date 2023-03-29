@@ -15,53 +15,21 @@
 
 /* Right - Content */
 .home-right {
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
 }
 
-/* Top Quote Container */
-.quote-container {
+.home-content {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    height: 50px;
-    width: 465px;
+    height: 100%;
+    justify-content: space-evenly;
 }
 
-.author-text-name,
-.quote-text {
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.author-text-title,
-.quote-author {
-    font-style: italic;
-    margin-top: 0;
-    text-align: end;
-}
-
-/* Center Author Container */
-.author-container {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
-.home-avatar {
-    border: 1px solid #FFFFFF;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-}
-
-.author-text-name {
-    margin-top: .15rem;
-}
-
-/* Bottom Nav Buttons */
+/* Top Nav Buttons */
 .home-nav-container {
     display: flex;
     flex-direction: column;
@@ -85,20 +53,69 @@
     transition: 0.2s ease;
 }
 
-/* Media Queries */
-@media (max-width: 460px) {
-    .quote-container {
-        display: none;
-    }
-
-    .author-container {
-        display: flex;
-        flex-direction: column;
-        margin: 2rem;
-        width: 60%;
-    }
+/* Center Container */
+/* Quote */
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 465px;
 }
 
+.author-text-name,
+.quote-text {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.author-text-title,
+.quote-author {
+    font-style: italic;
+    margin-top: 0;
+    text-align: end;
+}
+
+/* Title */
+.author-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    width: 60%;
+}
+
+.home-avatar {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.author-text-name {
+    margin-top: .15rem;
+}
+
+.home-summary-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.summary-text {
+    background-color: #bf9393;
+    border-radius: 10px;
+    padding: .4rem;
+    text-align: center;
+}
+
+.prof-list {
+    text-align: start;
+}
+
+.prof-text {
+    text-decoration: underline;
+}
+
+/* Media Queries */
 @media (max-width: 600px) {
     .home-left {
         display: none;
@@ -120,9 +137,5 @@
         flex-direction: column;
         height: 50px;
         width: 50vw;
-    }
-
-    .quote-text {
-        font-size: large;
     }
 }

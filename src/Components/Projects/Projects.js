@@ -2,7 +2,7 @@ import { ProjectCard } from '../ProjectCard/ProjectCard'
 import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 
-import lines from '../../Assets/lines.avif'
+import moon from '../../Assets/mountain.avif'
 import './Projects.css'
 
 export const Projects = ({ projects }) => {
@@ -24,7 +24,7 @@ export const Projects = ({ projects }) => {
     return (
         <div className='projects-container'>
             <img 
-                src={ lines }
+                src={ moon }
                 alt='hazy lines over a dark background'
                 className='projects-left'
             />

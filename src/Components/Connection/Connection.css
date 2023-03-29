@@ -28,7 +28,8 @@
     display: flex;
     justify-content: space-around;
     margin: .5rem;
-    width: 50vw;
+    max-width: 550px;
+    width: 90%;
 }
 
 .con-avatar {
@@ -62,6 +63,7 @@
     display: flex;
     height: 25vh;
     justify-content: space-around;
+    max-width: 625px;
     text-align: center;
     width: 40vw;
 }
@@ -77,28 +79,7 @@
 }
 
 /* Bottom Nav Container */
-.con-nav-container {
-    display: flex;
-    flex-direction: column;
-}
 
-.con-btns {
-    background: #D9D9D9;
-    border: 0;
-    border-radius: 10px;
-    color: #BF9393;
-    cursor: pointer;
-    font-family: 'Jim Nightshade';
-    font-size: x-large;
-    height: 70px;
-    margin: .5rem;
-    width: 240px;
-}
-
-.con-btns:hover {
-    transform: scale(1.1);
-    transition: 0.2s ease;
-}
 
 /* Footer */
 .con-footer {

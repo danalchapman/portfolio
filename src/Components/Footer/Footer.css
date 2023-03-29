@@ -13,7 +13,7 @@
 
 .icon {
     cursor: pointer;
-    width: 25%;
+    max-width: 30px;
 }
 
 .icon:hover {

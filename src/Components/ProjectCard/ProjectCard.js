@@ -1,12 +1,12 @@
 import filler from '../../Assets/space-img.avif'
 import './ProjectCard.css'
 
-export const ProjectCard = ({ title, repoLink, deployLink }) => {
+export const ProjectCard = ({ title, repoLink, deployLink, image }) => {
     return (
         <article className='project-card'>
             <img 
-                src={ filler }
-                alt='filler image'
+                src={ image }
+                alt='screenshot of project'
                 className='card-img'
             />
             <div>

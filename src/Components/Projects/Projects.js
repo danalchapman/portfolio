@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
+import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 
 import lines from '../../Assets/lines.avif'
@@ -15,6 +15,7 @@ export const Projects = ({ projects }) => {
                     title={ project.title }
                     repoLink={ project.repoLink }
                     deployLink={ project.deployLink }
+                    image={ project.image }
                 />
             )
         })
@@ -28,14 +29,10 @@ export const Projects = ({ projects }) => {
                 className='projects-left'
             />
             <section className='projects-right'>
-                <div className='projects-nav-container'>
-                    <Link to='/story'><button className='projects-btns'>Story</button></Link>
-                    <Link to='/connection'><button className='projects-btns'>Connection</button></Link>
-                </div>
+                <Header />
                 <div className='card-box'>
                     { displayProjects() }
                 </div>
-                <Link to='/'><button className='projects-btns'>Home</button></Link>
                 <Footer />
             </section>
         </div>

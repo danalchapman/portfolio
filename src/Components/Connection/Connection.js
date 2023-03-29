@@ -8,6 +8,9 @@ import twitter from '../../Assets/twitter.png'
 
 import moon from '../../Assets/mountain.avif'
 import avie from '../../Assets/av-1.png'
+import logo from '../../Assets/turing.png'
+import fwiend from '../../Assets/fwiend.png'
+import meme from '../../Assets/memeface.png'
 import './Connection.css'
 
 export const Connection = () => {
@@ -67,6 +70,23 @@ export const Connection = () => {
                             className='con-icon'
                         />
                     </a>
+                </article>
+                <article className='con-images'>
+                    <img 
+                        src={ logo }
+                        alt='Turing School logo'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ fwiend }
+                        alt='two friends sitting at a table smiling into the camera'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ meme }
+                        alt='an akita making a meme-like face'
+                        className='con-avatar bottom'
+                    />
                 </article>
                 <footer className='con-footer'>
                     <p>© 2023 Dana Chapman. All rights reserved.</p>

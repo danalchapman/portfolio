@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { ProjectCard } from '../ProjectCard/ProjectCard'
 import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
@@ -16,6 +15,7 @@ export const Projects = ({ projects }) => {
                     title={ project.title }
                     repoLink={ project.repoLink }
                     deployLink={ project.deployLink }
+                    image={ project.image }
                 />
             )
         })

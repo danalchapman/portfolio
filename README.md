@@ -37,31 +37,26 @@
 <br>
 
 <h3 align="center">Home Page</h3>
-<p align="center"><img width="500" src="" alt="Home Page gif"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/105478792/228666568-b5337f50-5a99-4aac-a000-47a8d0ec77b5.png" alt="Home Page screenshot"></p>
 
 <h3 align="center">Invalid URL Error Handling</h3>
-<p align="center"><img width="500" src="" alt="error handling gif"></p>
+<p align="center"><img width="500" src="https://user-images.githubusercontent.com/105478792/228666667-7f0308a5-069b-4e66-a40d-4e33f41385a4.png" alt="error handling screenshot"></p>
 
 <br />
-TBD
-<br />
-<br />
-TBD
+This React.js portfolio was created to display my personal projects in a beautiful, responseive application for anyone to access. The aesthetic of the portfolio comes from the photo on the `Home` page, a selfie taken prior to a charity event that I participated in early January 2023.
 
 ### Organization
 
-- TBD (List of Tools and Documents)
-
-<h3 align="center">Wireframe</h3>
-<p align="center"><img width="500" src="" alt="Wireframe"></p>
-
-TBD: Tools and Documentation
+- This portfolio has been through numerous iterations before I finally settled on the original wireframe. However, there were moments where I pivoted from the given wireframe due to mobile responsiveness, content, and more. The data file for the projects lie within `projectsData.js` (in the `src` folder) and the entire wireframe came be viewed at the Figma linked below.
+- Original Wireframe in [Figma](https://www.figma.com/file/340b138yCHHQLPlFvW1IHI/Simple-Portfolio?node-id=0%3A1&t=uG9PQIwzV8tgGd9P-1)
 
 ### Built With
 
-![React][React-shield]
 ![JavaScript][JavaScript-shield]
+![React][React-shield]
+![React Router][React Router-shield]
 ![HTML5][HTML-shield]
+![CSS][CSS-shield]
 ![Cypress][Cypress-shield]
 ![NPM][NPM-shield]
 ![Vercel][Vercel-shield]
@@ -78,20 +73,22 @@ TBD: Tools and Documentation
 
 ## Roadmap
 
-- [ ] TBD
+- [ ] Accessibility Testing
+- [ ] Cypress
+- [ ] Dark Mode
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
-- TBD: Features, Tools, Decisions Made
+- This application uses JavaScript with the React.js framework, as well as React-Router for unique urls and browser use. Media Queries/Breakpoints are utilized for the first time to aid in mobile responsiveness. In a future iteration, I will implement Cypress end-to-end testing and further accessibility tools to ensure an accessible page.
 
 ### Reflections
 <b>Wins:</b><br>
-TBD
+Honestly, this project is such a soft, lovely aesthetic and that makes me happy. While it is not 100% accurate to the original wireframe it keeps the heart of the idea. Implementing Media Queries and Breakpoints for the first time was difficult but rewarding, especially considering a mobile-first approach to responsiveness. 
 <p>
 <b>Challenges:</b><br>
-TBD
+This portfolio went through numerous iterations before landing on this architecture. I fought a lot with the responsiveness of the grid on the `Projects` component where the porject cards are displayed and while it is still not completely to my liking, I will be refactoring in the future and look foward to using what I learn to improve the app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,3 +111,5 @@ TBD
 [Cypress-shield]: https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e
 [NPM-shield]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
 [Vercel-shield]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
+[React Router-shield]: https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white
+[CSS-shield]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white

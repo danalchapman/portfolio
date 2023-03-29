@@ -1,8 +1,8 @@
-import email from '../../Assets/gmail.png'
-import github from '../../Assets/github(1).png'
-import insta from '../../Assets/instagram.png'
-import linkedin from '../../Assets/linkedin(1).png'
-import twitter from '../../Assets/twitter.png'
+import email from '../../Assets/footer-email.png'
+import github from '../../Assets/footer-github.png'
+import insta from '../../Assets/footer-insta.png'
+import linkedin from '../../Assets/footer-linked.png'
+import twitter from '../../Assets/footer-twitter.png'
 import './Footer.css'
 
 export const Footer = () => {

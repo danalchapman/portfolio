@@ -1,7 +1,7 @@
 import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 
-import wall from '../../Assets/wall.avif'
+import moon from '../../Assets/mountain.avif'
 import avatar from '../../Assets/ava-resize.png'
 import './Home.css'
 
@@ -10,7 +10,7 @@ export const Home = () => {
     return (
         <div className='home-container'>
             <img 
-                src={ wall } 
+                src={ moon } 
                 alt='a wall with a metal bar design over it' 
                 className='home-left'
             />

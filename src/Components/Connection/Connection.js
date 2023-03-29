@@ -1,13 +1,19 @@
-import { Link } from 'react-router-dom'
+import { Header } from '../Header/Header'
 
-import email from '../../Assets/gmail.png'
-import github from '../../Assets/github(1).png'
-import insta from '../../Assets/instagram.png'
-import linkedin from '../../Assets/linkedin(1).png'
-import twitter from '../../Assets/twitter.png'
+import email from '../../Assets/con-email.png'
+import github from '../../Assets/con-github.png'
+import insta from '../../Assets/con-insta.png'
+import linkedin from '../../Assets/con-linked.png'
+import twitter from '../../Assets/conn-twitter.png'
 
 import moon from '../../Assets/mountain.avif'
 import avie from '../../Assets/av-1.png'
+import logo from '../../Assets/turing.png'
+import fwiend from '../../Assets/fwiend.png'
+import meme from '../../Assets/memeface.png'
+import fsu from '../../Assets/FSU .png'
+import sky from '../../Assets/sky.png'
+import dogs from '../../Assets/dogs.png'
 import './Connection.css'
 
 export const Connection = () => {
@@ -19,17 +25,18 @@ export const Connection = () => {
                 className='con-left'
             />
             <section className='con-right'>
-                <div className='top-container'>
+                <Header />
+                <summary className='top-container'>
                     <img 
                         src={ avie }
                         alt='Selfie of author'
                         className='con-avatar'
                     />
-                    <div className='con-text-align'>
+                    <aside className='con-text-align'>
                         <h3 className='con-text-top'>Come share your story with me!</h3>
                         <p className='con-text-bottom'>Do everything with kindness</p>
-                    </div>
-                </div>
+                    </aside>
+                </summary>
                 <article className='con-links-container'>
                     <a href='mailto:dana.leigh.dlc@gmail.com?subject=Coffee%20Chat' title='Email'> 
                         <img 
@@ -67,11 +74,39 @@ export const Connection = () => {
                         />
                     </a>
                 </article>
-                <div className='con-nav-container'>
-                    <Link to='/story'><button className='con-btns'>Story</button></Link>
-                    <Link to='/projects'><button className='con-btns'>Projects</button></Link>
-                    <Link to='/'><button className='con-btns'>Home</button></Link>
-                </div>
+                <article className='con-images'>
+                    
+                    <img 
+                        src={ fwiend }
+                        alt='two friends sitting at a table smiling into the camera'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ meme }
+                        alt='an akita making a meme-like face'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ dogs }
+                        alt='Dana sitting on a couch with two dogs'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ fsu }
+                        alt='three friends sitting at a restaurant outside'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ sky }
+                        alt='beautiful sunset sky with pink and orange clouds'
+                        className='con-avatar bottom'
+                    />
+                    <img 
+                        src={ logo }
+                        alt='Turing School logo'
+                        className='con-avatar bottom'
+                    />
+                </article>
                 <footer className='con-footer'>
                     <p>© 2023 Dana Chapman. All rights reserved.</p>
                 </footer>

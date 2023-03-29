@@ -1,4 +1,4 @@
-import filler from '../../Assets/space-img.avif'
+
 import './ProjectCard.css'
 
 export const ProjectCard = ({ title, repoLink, deployLink, image }) => {

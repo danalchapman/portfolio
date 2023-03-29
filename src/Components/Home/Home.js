@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 
 import wall from '../../Assets/wall.avif'
@@ -15,6 +15,7 @@ export const Home = () => {
                 className='home-left'
             />
             <section className='home-right'>
+                <Header />
                 <div className='quote-container'>
                     <h1 className='quote-text'>Life itself is the most wonderful fairy tale</h1>
                     <p className='quote-author'>-Hans Christian Anderson</p>
@@ -27,11 +28,6 @@ export const Home = () => {
                     />
                     <h2 className='author-text-name'>Dana L.C.</h2>
                     <p className='author-text-title'>Frontend Software Engineer</p>
-                </div>
-                <div className='home-nav-container'>
-                    <Link to='/story'><button className='home-btns'>Story</button></Link>
-                    <Link to='/projects'><button className='home-btns'>Projects</button></Link>
-                    <Link to='/connection'><button className='home-btns'>Connection</button></Link>
                 </div>
                 <Footer />
             </section>

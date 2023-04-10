@@ -31,7 +31,7 @@ export const projectData = [
         projectID: 5,
         title: 'Let\'s Get Read',
         repoLink: 'https://github.com/danalchapman/lets-get-read',
-        deployLink: '',
+        deployLink: 'https://lets-get-read.vercel.app/',
         image: 'https://i.postimg.cc/qqZxWMFh/read-ss.png'
     } 
 ]
